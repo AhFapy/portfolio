@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.active {
+  color: rgb(100 116 139);
+}
+    
+#main-home{
+  background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)), url('https://cdn.discordapp.com/attachments/1086767707099242578/1112314177873256529/4321.jpg');
+  background-size: cover;
+}
+
+#main-projects {
+  background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)), url('https://cdn.discordapp.com/attachments/1086767707099242578/1112315284771057734/bosque-cubierto-en-niebla_3840x2160_xtrafondos.com.jpg');
+  background-size: cover;
+}
+
+#main-tech {
+  background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)), url('https://cdn.discordapp.com/attachments/1086767707099242578/1112321022318891068/edificios-en-shangai_5120x2880_xtrafondos.com.jpg');
+  background-size: cover;
+}
+
+#main-about {
+  background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)), url('https://cdn.discordapp.com/attachments/1086767707099242578/1112321078073774130/chico-mirando-las-olas-arte-digital_3840x2145_xtrafondos.com.jpg');
+}
